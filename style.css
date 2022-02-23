@@ -1,3 +1,55 @@
+ * {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+} 
+
 body {
-    background-color: wheat;
+    background-image:url("backgroundimage.webp") ;
+    font-family: 'Cinzel', serif;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  background-size: 100% 100%; 
 }
+h1 {
+    font-weight: 700;
+    text-align: center;
+    padding: 1rem;
+}
+div {
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+div p {
+    font-weight: 700;
+  
+    font-size: x-large;
+}
+div  #btn-translate {
+ padding: 0.7rem;
+ background-color:wheat;
+ border-radius: 0.2rem;
+ border:1.5px solid black;
+ color: black;
+ font-weight: 700;
+ font-family: 'Cinzel', serif;
+}
+
+div .textarea {
+border-radius: 0.3rem;
+    max-width: 45%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+
+}
+
+::placeholder {
+    font-style:italic;
+    font-size: 1em;
+padding:2rem;
+text-align: center;
+font-size: larger;
+  }
